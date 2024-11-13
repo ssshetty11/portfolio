@@ -111,7 +111,7 @@ export default function RootLayout({
 					mask="cursor"
 					dots={{
 						display: true,
-						opacity: 0.4,
+						opacity: 0.9,
 						size: '20'
 					}}
 					gradient={{

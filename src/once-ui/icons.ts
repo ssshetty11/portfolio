@@ -1,5 +1,6 @@
 import { IconType } from 'react-icons';
 
+// Heroicons import for general utility icons
 import {
 	HiChevronUp,
 	HiChevronDown,
@@ -21,14 +22,19 @@ import {
 	HiCheckCircle,
 } from "react-icons/hi2";
 
+// Font Awesome import for social media and email icons
 import {
 	FaDiscord,
-	FaGithub
+	FaGithub,
+	FaInstagram,
+	FaLinkedin,
+	FaEnvelope
 } from "react-icons/fa6";
 
+// Define the icon library object with a Record type for mapping string keys to icons
 export const iconLibrary: Record<string, IconType> = {
 	chevronUp: HiChevronUp,
-    chevronDown: HiChevronDown,
+	chevronDown: HiChevronDown,
 	chevronRight: HiChevronRight,
 	chevronLeft: HiChevronLeft,
 	refresh: HiOutlineArrowPath,
@@ -47,4 +53,8 @@ export const iconLibrary: Record<string, IconType> = {
 	arrowUpRight: HiArrowUpRight,
 	minus: HiMiniMinus,
 	plus: HiMiniPlus,
+	// Newly added icons
+	instagram: FaInstagram,
+	linkedin: FaLinkedin,
+	gmail: FaEnvelope,
 };
