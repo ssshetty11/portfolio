@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Flex } from "@/once-ui/components";
 
 export const metadata: Metadata = {
-  title: "Education | Your Name",
+  title: "Education | Sanchay Shetty",
   description: "Educational background and academic achievements",
 };
 
