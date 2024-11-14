@@ -56,7 +56,7 @@ export default function Home() {
 							position="relative"
 							flex={2} paddingTop="56" paddingX="xl">
 							<Image
-								src="/images/try2.jpg"
+								src="https://ibb.co/Pz5bnW8"
 								alt="Sanchay Shetty"
 								width={200}
 								height={200}
