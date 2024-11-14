@@ -46,3 +46,59 @@ Grab a copy from the [Figma Community](https://figma.com/).
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/76DR9Q?referralCode=QW2HBC)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fnextjs-starter&redirect-url=https%3A%2F%2Fonce-ui.com%2Fdocs%2F)
+
+<div align="center">
+  <img src="public/images/try1.jpg" alt="Sanchay Shetty" width="200" style="border-radius: 50%;" />
+  <h1>Sanchay Shetty - Portfolio</h1>
+  <p>Frontend Developer | Final Year Undergraduate at PES University</p>
+</div>
+
+## 🚀 About Me
+
+Frontend Developer with a passion for creating intuitive and performant web applications. Currently pursuing my final year at PES University, specializing in web development with modern technologies.
+
+## 💻 Tech Stack
+
+- **Frontend**: React.js, Next.js, TypeScript
+- **Styling**: Tailwind CSS, CSS3
+- **Version Control**: Git, GitHub
+- **Tools**: VS Code, Figma
+
+## 🌟 Key Features
+
+- Modern UI/UX with responsive design
+- Server-side rendering with Next.js
+- Type-safe development using TypeScript
+- Component-based architecture
+- Performance optimized
+
+## 🛠️ Installation & Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/portfolio.git
+
+# Navigate to project directory
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+## 🔗 Links
+
+- [Live Portfolio](https://your-portfolio-url.com)
+- [LinkedIn](https://linkedin.com/in/your-profile)
+- [GitHub](https://github.com/your-username)
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 📧 Contact
+
+- Email: your.email@example.com
+- LinkedIn: [Sanchay Shetty](https://linkedin.com/in/your-profile)

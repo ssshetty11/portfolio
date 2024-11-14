@@ -1,5 +1,10 @@
 {
-	"name": "@once-ui-system/nextjs-starter",
+	"name": "@sanchay-shetty/portfolio",
+	"author": {
+		"name": "Sanchay Shetty",
+		"email": "shettysanchay11@gmail.com",
+		"url": "https://sanchay-shetty.vercel.app/"
+	},
 	"version": "0.4.1",
 	"scripts": {
 		"dev": "next dev",

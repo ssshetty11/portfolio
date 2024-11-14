@@ -98,9 +98,10 @@ export default function Home() {
 							</Heading>
 							<Button
 								id="readDocs"
-								href="https://sanchay-shetty.vercel.app/"
+								href="/resume"
 								variant="secondary">
 								<Flex alignItems="center">
+									
 									Frontend Developer
 									<Arrow trigger="#readDocs"/>
 								</Flex>
@@ -179,9 +180,11 @@ export default function Home() {
 						prefixIcon="gmail" 
 						size="s" 
 						variant="tertiary">
-						shettysanchay@gmail.com
+						shettysanchay11@gmail.com
 					</Button>
-					
+					<Link href="/resume">
+						<Button variant="primary">View Resume</Button>
+					</Link>
 				</Flex>
 			</Flex>
 		</Flex>
