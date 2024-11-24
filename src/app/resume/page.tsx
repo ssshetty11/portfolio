@@ -37,15 +37,15 @@ export default function Resume() {
         </Link>
 
         <Heading
-								wrap="balance"
-								variant="display-strong-s">
-								<span className="font-code">
-									<LetterFx
-										trigger="instant">
-										My Resume
-									</LetterFx>
-								</span>
-							</Heading>
+          wrap="balance"
+          variant="display-strong-s">
+          <span className="font-code">
+            <LetterFx
+              trigger="instant">
+              My Resume
+            </LetterFx>
+          </span>
+        </Heading>
 
         <Button
           variant="primary"
@@ -65,14 +65,25 @@ export default function Resume() {
         alignItems="center"
         flex={1}>
         <iframe
-          src="/SanchayShetty_resume.pdf#view=FitH"
+          src="/SanchayShetty_resume.pdf"
           style={{
             width: '100%',
             height: 'calc(100vh - 150px)',
             border: 'none',
             borderRadius: '8px',
           }}
-        />
+          title="Resume"
+        >
+          Your browser does not support PDFs. 
+          <a href="/SanchayShetty_resume.pdf">Download the PDF</a>.
+        </iframe>
+        <Button
+          variant="secondary"
+          onClick={() => window.open('/SanchayShetty_resume.pdf', '_blank')}
+          style={{ marginTop: '1rem' }}
+        >
+          View Resume
+        </Button>
       </Flex>
     </Flex>
   );
