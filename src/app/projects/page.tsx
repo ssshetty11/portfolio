@@ -6,6 +6,12 @@ import Link from 'next/link';
 
 const projects = [
   {
+    title: "Swipe Card- Automated Data Extraction and Invoice Management",
+    description: "Developed a React application for automating invoice data extraction and management using AI, supporting file uploads (Excel, PDF, images) and real-time synchronization via Redux. Organized data into Invoices, Products, and Customers tabs with robust validation and error handling.",
+    tech: "React, Redux, Google Gemini API, deployed on Netlify",
+    liveLink: "https://simple-payment.netlify.app/",
+  },
+  {
     title: "Insightfulink",
     description: "Insightful Ink is a dynamic web application dedicated to empowering PES teachers in managing their publications with convenience and efficiency. Teachers can easily create, edit, update, and delete their publications.",
     tech: "NextJs, Tailwind CSS, JavaScript",
